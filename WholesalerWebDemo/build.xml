@@ -1,7 +1,7 @@
 <project name="eBus-Framework-Demo-WTP" default="javadoc" basedir=".">
 
 	<!-- =================================================================== -->
-	<!-- Project Properties                                                  -->
+	<!-- Project Properties Test                                                  -->
 	<!-- =================================================================== -->
 	<property name="project" value="eBus-Framework-Demo-WTP" />
 	<property name="src.dir" value="${basedir}/src" />
