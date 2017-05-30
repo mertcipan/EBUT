@@ -1,0 +1,8 @@
+127.0.0.1 - - [11/May/2017:15:45:09 +0200] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [11/May/2017:15:45:11 +0200] "GET /WholesalerWebDemo/ HTTP/1.1" 200 2324
+0:0:0:0:0:0:0:1 - - [11/May/2017:15:45:20 +0200] "GET /WholesalerWebDemo/controllerservlet;jsessionid=06466E57C619CCEFAF66679804EC6708?action=login&role=1&username=internal1&password=internal1 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/May/2017:15:45:20 +0200] "GET /WholesalerWebDemo/welcome.jsp HTTP/1.1" 200 1656
+0:0:0:0:0:0:0:1 - - [11/May/2017:15:45:22 +0200] "GET /WholesalerWebDemo/export.jsp HTTP/1.1" 200 2235
+0:0:0:0:0:0:0:1 - - [11/May/2017:15:45:25 +0200] "GET /WholesalerWebDemo/controllerservlet?action=logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/May/2017:15:45:25 +0200] "GET /WholesalerWebDemo/logout.jsp HTTP/1.1" 200 663
+0:0:0:0:0:0:0:1 - - [11/May/2017:15:45:26 +0200] "GET /WholesalerWebDemo/login.jsp HTTP/1.1" 200 2060
