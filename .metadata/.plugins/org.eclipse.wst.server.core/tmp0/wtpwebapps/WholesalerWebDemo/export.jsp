@@ -28,13 +28,14 @@
 			<tr>
 				<td>Exporting Format:</td>
 				<td><select name="role" size="1">
-						<option value="1" selected>simple BMEcat XML</option>
-						<option value="2">simple XHTML</option>
+						<option value="1" selected>XML</option>
+						<option value="2">XHTML</option>
 				</select></td>
 			</tr>
 		</table>
 		<p>
-			<input type="submit" name="find-Products" value="Find and Export">
+			<input type="submit" name="show-Products" value="View" >
+			<input type="submit" name="download-Products" value="Download">
 		</p>
 
 	<!-- Function to export all articles with option to choose in which format it should be exported-->
@@ -44,13 +45,14 @@
 		<tr>
 			<td>Exporting Format:</td>
 			<td><select name="role" size="1">
-					<option value="1" selected>simple BMEcat XML</option>
-					<option value="2">simple XHTML</option>
+					<option value="1" selected>XML</option>
+					<option value="2">XHTML</option>
 			</select></td>
 		</tr>
 	</table>
 	<p>
-		<input type=button name=export-all value=" Export All " onclick="javascript:history.back()">
+		<input type=button name=view-all value="View">
+		<input type=button name=download-all value="Download">
 	</p>
 </body>
 </html>
