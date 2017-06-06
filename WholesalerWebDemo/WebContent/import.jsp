@@ -15,12 +15,28 @@
 <%@ include file="authentication.jsp" %>
 <%@ include file="navigation.jspfragment" %>
 
-<h1>Import</h1>
-<div>
-<img src="images/overview.png">
-</div>
-<p>
-<input type=button name=go-back value=" Back " onclick="javascript:history.back()">
-</p>
+
+<h1>Import product catalog</h1>
+
+	<!-- Formular for importing of products -->
+	<form name="exportForm" method="post">
+		<table>
+			<tr>
+				<td>File:</td>
+				<td><input name="file" value="" /></td>
+				<td><input type="reset" value="Reset"></td>
+			</tr>
+			<tr>
+				<td>Importing Format:</td>
+				<td><select name="role" size="1">
+						<option value="1" selected>XML</option>
+						<option value="2">XHTML</option>
+				</select></td>
+			</tr>
+		</table>
+		<p>
+			<input type="submit" name="import-Products" value="Import" >
+		</p>
+
 </body>
 </html>
