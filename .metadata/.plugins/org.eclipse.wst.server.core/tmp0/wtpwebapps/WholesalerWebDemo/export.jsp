@@ -1,58 +1,84 @@
-<%@ page session="true"%>
+<%@ page session="true" import="de.htwg_konstanz.ebus.framework.wholesaler.api.bo.*,de.htwg_konstanz.ebus.framework.wholesaler.api.boa.*,de.htwg_konstanz.ebus.wholesaler.demo.util.Constants,java.util.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-	<title>eBusiness Framework Demo - Welcome</title>
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="pragma" content="no-cache">
-	<link rel="stylesheet" type="text/css" href="default.css">
+<title>eBusiness Framework Demo - Export</title>
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<link rel="stylesheet" type="text/css" href="default.css">
+<link rel="stylesheet" type="text/css" href="layout.css">
 </head>
+
 <body>
 
-	<%@ include file="header.jsp"%>
-	<%@ include file="error.jsp"%>
-	<%@ include file="authentication.jsp"%>
-	<%@ include file="navigation.jspfragment"%>
+<%@ include file="header.jsp" %>
+<%@ include file="error.jsp" %>
+<%@ include file="authentication.jsp" %>
+<%@ include file="navigation.jspfragment" %>
 
-	<h1>Export Matching Short Description</h1>
-
-	<!-- Formular for exporting matching short description -->
-	<form name="exportForm" method="post">
-		<table>
-			<tr>
-				<td>Short Description:</td>
-				<td><input name="description" value="" /></td>
-				<td><input type="reset" value="Reset"></td>
-			</tr>
-			<tr>
-				<td>Exporting Format:</td>
-				<td><select name="role" size="1">
-						<option value="1" selected>XML</option>
-						<option value="2">XHTML</option>
-				</select></td>
-			</tr>
-		</table>
-		<p>
-			<input type="submit" name="show-Products" value="View" >
-			<input type="submit" name="download-Products" value="Download">
-		</p>
-
-	<!-- Function to export all articles with option to choose in which format it should be exported-->
-	</form>
-	<h1>Export All</h1>
-	<table>
-		<tr>
-			<td>Exporting Format:</td>
-			<td><select name="role" size="1">
-					<option value="1" selected>XML</option>
-					<option value="2">XHTML</option>
-			</select></td>
-		</tr>
-	</table>
-	<p>
-		<input type=button name=view-all value="View">
-		<input type=button name=download-all value="Download">
-	</p>
+<h1>Export Product Catalog Matching Short Description</h1>
+<table class="dataTable">
+	<tr>
+		<th>Export Matching Products</th>
+		<th colspan="2">View</th>
+		<th colspan="2">Download</th>
+	</tr>
+	<tr>
+		<td>
+			<form id="searchForm" method="post" action="controllerservlet?action=export">
+				<input type="hidden" name="view" id="view"/>
+				<input type="hidden" name="download" id="download"/>
+				<input type="text" name="search" placeholder="TEXT"/>
+				<input type="reset" value="Reset">
+			</form> 
+		</td>
+		<script>
+			function submitScript(view, download) {
+				document.getElementById("view").value = view;
+				document.getElementById("download").value = download;
+				document.getElementById("searchForm").submit();
+			}
+		</script>
+		<td><button onclick="submitScript('BMECAT');">BMECAT</button></td>
+		<td><button onclick="submitScript('XHTML');">XHTML</button></td>
+		<td><button onclick="submitScript('BMECAT','yes');">BMECAT</button></td>
+		<td><button onclick="submitScript('XHTML','yes');">XHTML</button></td>
+	</tr>	
+</table>
+<p></p>
+<h1>Export Whole Product Catalog</h1>
+<table class="dataTable">
+	<tr>
+		<th colspan="2">View</th>
+		<th colspan="2">Download</th>
+	</tr>
+	<tr>
+		<td>
+			<form method ="post" action="controllerservlet?action=export&view=BMECAT">
+				<button type="submit">BMECAT</button>
+			</form>
+		</td>
+		<td>
+			<form method ="post" action="controllerservlet?action=export&view=XHTML">
+				<button type="submit">XHTML</button>
+			</form>
+		</td>
+		<td>
+			<form method ="post" action="controllerservlet?action=export&view=BMECAT&download=yes">
+				<button type="submit">BMECAT</button>
+			</form>
+		</td>
+		<td>
+			<form method ="post" action="controllerservlet?action=export&view=XHTML&download=yes">
+				<button type="submit">XHTML</button>
+			</form>
+		</td>
+	</tr>
+</table>
+<p>
+<input type=button name=go-back value=" back " onclick="javascript:history.back()">
+</p>
 </body>
 </html>

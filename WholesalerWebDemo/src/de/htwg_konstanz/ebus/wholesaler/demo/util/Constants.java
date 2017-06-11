@@ -28,8 +28,11 @@ public class Constants
 	public static final String ACTION_UPDATE_WS_SETTINGS = "updateWsSettings";
 	
 	//some new constants for the export functionality
-	public static final String ACTION_EXPORT_ALL_PRODUCTS = "exportAllProducts";
-	public static final String ACTION_EXPORT_MATCHING_PRODUCTS = "exportMatichingProducts";
+	public static final String ACTION_EXPORT = "export";
+	public static final String PARAM_EXPORT = "exportParam";
+	public static final String ACTION_EXPORT_VIEW = "view";
+	public static final String ACTION_EXPORT_SEARCH = "search";
+	public static final String ACTION_EXPORT_DOWNLOAD = "download";
 
 	// All parameter constants
     public static final String PARAM_SUPPLIER = "supplier";

@@ -19,7 +19,7 @@
 <h1>Import product catalog</h1>
 
 	<!-- Formular for importing of products -->
-	<form name="exportForm" method="post">
+	<form name="importForm" method="post">
 		<table>
 			<tr>
 				<td>File:</td>
