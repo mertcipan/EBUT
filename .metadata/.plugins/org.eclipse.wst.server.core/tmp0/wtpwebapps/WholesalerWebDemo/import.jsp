@@ -16,27 +16,38 @@
 <%@ include file="navigation.jspfragment" %>
 
 
-<h1>Import product catalog</h1>
+<h1>Import Product catalog</h1>
+
+	<!-- javascript for checking, if a file is selected -->
+	
+	<script type="text/javascript">
+		function submitOrError(){
+			if(document.getElementById("File").value !== ""){
+				document.getElementById("upload").submit();
+			} else {
+				alert("Please select a File!");
+			}	
+		}
+	</script>
 
 	<!-- Formular for importing of products -->
-	<form name="importForm" method="post">
+	
+	<form id="upload" name="upload" action="controllerservlet?action=import" enctype="multipart/form-data" method="POST">
 		<table>
 			<tr>
-				<td>File:</td>
-				<td><input name="file" value="" /></td>
-				<td><input type="reset" value="Reset"></td>
+				<td>Selected File:</td>
+				<td><input type="file" name="File" id="File"/></td>
 			</tr>
 			<tr>
 				<td>Importing Format:</td>
 				<td><select name="role" size="1">
 						<option value="1" selected>XML</option>
 						<option value="2">XHTML</option>
-				</select></td>
+					</select></td>
 			</tr>
 		</table>
-		<p>
-			<input type="submit" name="import-Products" value="Import" >
-		</p>
+		
+		<p><input type="button" value="Upload" onclick="submitOrError()"/></p>
 
 </body>
 </html>
