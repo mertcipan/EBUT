@@ -28,7 +28,7 @@ public class ExportAction implements IAction {
 
 	@Override
 	public String execute(HttpServletRequest request,
-			HttpServletResponse response, ArrayList<String> errorList) {
+		HttpServletResponse response, ArrayList<String> errorList) {
 		// get the login bean from the session
 		LoginBean loginBean = (LoginBean)request.getSession(true).getAttribute(Constants.PARAM_LOGIN_BEAN);
 
@@ -72,13 +72,14 @@ public class ExportAction implements IAction {
 					}
 				}
 				else{
-					//Search string was entered 
+					//Search text was entered and is not empty
 					if("BMECAT".equals(view)){
 						String path = Export.writeDOMIntoFile(Export.exportSearch(errorList, search), context, userId, errorList);
 						if(errorList.isEmpty()){
 							if(("yes").equals(download)){
 								 downloadFile(context, path, response, errorList);
 							}
+							return path;
 						}
 					}
 					if(("XHTML").equals(view)){
@@ -112,8 +113,9 @@ public class ExportAction implements IAction {
 		try {
 			
 			response.setContentType("text/xml");
+			response.setContentType("APPLICATION/OCTET-STREAM");
 			response.setHeader("Content-Disposition",
-			"attachment;filename=bmecat.xml");
+			"attachment;filename\"" + "=bmecat.xml" + "\"");
 			//BMEcat as Outputstream and not as File
 			File file = new File(context.getRealPath(path));
 			FileInputStream fin = new FileInputStream(file);

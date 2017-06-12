@@ -130,11 +130,17 @@ public class Import implements IValidation {
 				errorList.add("NEW: Product \"" + product.getShortDescription() + "\" ADDED");
 			}
 		}	 
-		//commits and closes transaction
+		//commits and closes the transaction
 		_BaseBOA.getInstance().commit();
 		return product;	
 	}
 	
+	/**
+	 * This function proves, if the chosen Element exists
+	 * @param node The node from the NodeList
+	 * @param child The first Child of the Node
+	 * @return false if no childs, otherwise true
+	 */
 	private boolean tagExists(NodeList nodes){
 		if(nodes.getLength()>0){
 			Node node = nodes.item(0);
@@ -147,7 +153,13 @@ public class Import implements IValidation {
 		}
 		return false;
 	}
-
+	
+	/**
+	 * This function inserts the Prices of the Products into the Database
+	 * @param salesPrice The Sales Price of the Product offered to the customers (2.5 x purchasing Price)
+	 * @param purchasingPrice The purchasing Price, payed to the supplier
+	 * @param profit The profit which the Product should be earned
+	 */
 	private void insertPricesIntoDB(Document document, List<String> errorList, BOProduct product) {
 		BOSalesPrice salesPrice = new BOSalesPrice();
 		BOPurchasePrice purchasingPrice = new BOPurchasePrice();
@@ -165,7 +177,7 @@ public class Import implements IValidation {
 			purchasingPrice.setPricetype(articlePrice.getAttribute("price_type"));
 			salesPrice.setPricetype(articlePrice.getAttribute("price_type"));
 		
-			//Set "PRICE_AMOUNT"
+			//Set "PRICE_AMOUNT" and multiply with profit
 			NodeList article_price_amount = articlePrice.getElementsByTagName("PRICE_AMOUNT");
 			purchasingPrice.setAmount(BigDecimal.valueOf(Double.valueOf(article_price_amount.item(0).getChildNodes().item(0).getNodeValue())));
 			salesPrice.setAmount(BigDecimal.valueOf(Double.valueOf(article_price_amount.item(0).getChildNodes().item(0).getNodeValue())).multiply(profit));

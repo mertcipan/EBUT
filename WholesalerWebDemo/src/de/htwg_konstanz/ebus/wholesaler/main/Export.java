@@ -140,7 +140,6 @@ public class Export implements IValidation {
 		return path;
 	}
 	
-	
 	/**
 	 * Writes Document into File
 	 * @param document The Document that should be transformed 
@@ -150,19 +149,24 @@ public class Export implements IValidation {
 	 * @return the Path to the File
 	 */
 	public static String writeDOMIntoFile(Document document, ServletContext context, Integer userId, ArrayList<String> errorList){
-		DateFormat dateFormat = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
-		Date date = new Date();
-		String path=dateFormat.format(date)+"catalog_export.xml";
+		String path="bmecat.xml";
 		File file=null;
+		
+		
 		try {
-			//load Transformation
-			TransformerFactory transformerFactory = TransformerFactory.newInstance();
-			Transformer transformer = transformerFactory.newTransformer();
-			DOMSource source = new DOMSource(document);
-			//create file
+			//send DOM to File
+			Transformer tr = TransformerFactory.newInstance().newTransformer();
+			tr.setOutputProperty(OutputKeys.INDENT, "yes");
+            tr.setOutputProperty(OutputKeys.METHOD, "xml");
+            tr.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+            tr.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
+			
+            //create file
+            DOMSource source = new DOMSource(document);
 			file = new File(context.getRealPath(path));
 			StreamResult result = new StreamResult(file);
-			transformer.transform(source, result);
+			tr.transform(source, result);
+			
 		} catch (TransformerConfigurationException e) {
 			errorList.add("Configuration Error while transforming");
 			e.printStackTrace();
@@ -195,53 +199,55 @@ public class Export implements IValidation {
 	 */
 	public static Document createDOMWithoutArticles(Document document) throws ParserConfigurationException{
 		
-		//Create ROOT-Element with attributes and append ROOT-Element to document
-		Element root = document.createElement("ROOT");
+		//Create BMECAT-Element with attributes and append ROOT-Element to document
+		Element root = document.createElement("BMECAT");
 		root.setAttribute("version", "1.2");
 		root.setAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance");
 		root.setAttribute("xsi:noNamespaceSchemaLocation", "shemaFiles/stylesheet.xsd");
 		document.appendChild(root);
 		
-		//Create HEADER-Element and append to ROOT
+		//Create HEADER-Element and append to BMECAT
 		Element header = document.createElement("HEADER");
 		root.appendChild(header);
-		
-		//Create T_NEW_CATALOG-Element and to "HEADER"
-		Element t_new_catalog = document.createElement("T_NEW_CATALOG");
-		root.appendChild(t_new_catalog);
-		
-		//Create AUTHOR-Element and append to "HEADER"
-		Element author = document.createElement("AUTHOR");
-		header.appendChild(author);
-		
-		//Create AUTHOR_NAME-Element, append to "AUTHOR" and fill with text
-		Element author_name = document.createElement("AUTHOR_NAME");
-		author.appendChild(author_name);
-		author_name.insertBefore(document.createTextNode("Mert, Egzon"), author_name.getLastChild());
 		
 		//Create CATALOG-Element and append to HEADER
 		Element catalog = document.createElement("CATALOG");
 		header.appendChild(catalog);
-		//Create CATALOG_NAME-Element, append to "CATALOG" and fill with text
-		Element catalog_name = document.createElement("CATALOG_NAME");
-		catalog.appendChild(catalog_name);
-		catalog_name.insertBefore(document.createTextNode("[EBUT_SS17]PRODUKTKATALOG eBusiness Framework"), catalog_name.getLastChild());
-		
 		//Create LANGUAGE-Element and append to CATALOG
 		Element language = document.createElement("LANGUAGE");
 		catalog.appendChild(language);
 		//Fill LANGUAGE-Element with "deu" for german 
 		language.insertBefore(document.createTextNode("deu"), language.getLastChild());
+		//Create CATALOG_ID-Element and append to CATALOG
+		Element catalogId = document.createElement("CATALOG_ID");
+		catalog.appendChild(catalogId);
+		//Fill in CATALOG_ID-Element
+		catalogId.insertBefore(document.createTextNode("HTWG-EBUS-17"), catalogId.getLastChild());
+		//Create CATALOG_VERSION-Element and append to CATALOG
+		Element catalogVersion = document.createElement("CATALOG_VERSION");
+		catalog.appendChild(catalogVersion);
+		//Fill in CATALOG_VERSION-Element
+		catalogVersion.insertBefore(document.createTextNode("1.0"), catalogVersion.getLastChild());
+		//Create CATALOG_NAME-Element, append to "CATALOG" and fill with text
+		Element catalog_name = document.createElement("CATALOG_NAME");
+		catalog.appendChild(catalog_name);
+		catalog_name.insertBefore(document.createTextNode("PRODUKTKATALOG eBusiness Framework Mert und Egzon"), catalog_name.getLastChild());
 		
-		//Create DATE-Element and append to CATALOG
-		Element currentDate = document.createElement("DATE");
-		catalog.appendChild(currentDate);
-		//Definition of Date for HEADER Information
-		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-		Date date = new Date();
-		//Automatically fill Date Element with current Date
-		currentDate.insertBefore(document.createTextNode(dateFormat.format(date)), currentDate.getLastChild());
-	
+		//Create SUPPLIER-Element append SUPPLIER to "HEADER"
+		Element supplier = document.createElement("SUPPLIER");
+		header.appendChild(supplier);
+				
+		//Create SUPPLIER_NAME-Element and append SUPPLIER_NAME-Element to "SUPPLIER"
+		Element supplier_name = document.createElement("SUPPLIER_NAME");
+		supplier.appendChild(supplier_name);
+				
+		//Fill SUPPLIER_NAME-Element with Text
+		supplier_name.insertBefore(document.createTextNode("KN MEDIA STORE"), supplier_name.getLastChild());
+				
+		//Create T_NEW_CATALOG-Element and append T_NEW_CATALOG to "HEADER"
+		Element t_new_catalog = document.createElement("T_NEW_CATALOG");
+		root.appendChild(t_new_catalog);
+
 		return document;
 	}
 	

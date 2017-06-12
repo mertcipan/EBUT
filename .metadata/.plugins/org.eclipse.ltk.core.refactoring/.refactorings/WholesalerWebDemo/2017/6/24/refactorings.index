@@ -1,2 +1,3 @@
 1497271620173	Rename method 'insertProductPricesIntoDB'
 1497272020290	Rename local variable 'purchasePrice'
+1497284351592	Rename local variable 'transformer'

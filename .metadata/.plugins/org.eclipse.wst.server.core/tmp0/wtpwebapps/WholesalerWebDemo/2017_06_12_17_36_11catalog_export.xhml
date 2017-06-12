@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>[EBUT_SS17]PRODUKTKATALOG eBusiness Framework</title>
+<link rel="stylesheet" type="text/css" href="/Users/mertcipan/EBUT/WholesalerWebDemo/WebContent/default.css"/>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>
+<b>CATALOG_NAME</b>
+</th>
+<td>[EBUT_SS17]PRODUKTKATALOG eBusiness Framework</td>
+</tr>
+<tr>
+<th>
+<b>LANGUAGE</b>
+</th>
+<td>deu</td>
+</tr>
+<tr>
+<th>
+<b>DATE</b>
+</th>
+<td>2017/06/12 17:36:11</td>
+</tr>
+</table>
+<h2>Artikel_ID: mer-penbook-1</h2>
+<table border="1" class="dataTable">
+<thead>
+<tr>
+<th>
+<b>Short Description</b>
+</th>
+<th>
+<b>Long Description</b>
+</th>
+<th>
+<b>Price</b>
+</th>
+<th>
+<b>Inventory</b>
+</th>
+<th>
+<b>Orders</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HTWG-Pen Book</td>
+<td>quadratisches Notizbuch inkl. HTWG-Kugelschreiber, 18 x 18 cm</td>
+</tr>
+</tbody>
+</table>
+<table border="1">
+<tr>
+<td>ORDER_UNIT</td>
+<td>05</td>
+</tr>
+<tr>
+<td>CONTENT_UNIT</td>
+<td>05</td>
+</tr>
+<tr>
+<td>NO_CU_PER_OU</td>
+<td>05</td>
+</tr>
+</table>
+<h3>ARTICLE_PRICE_DETAILS: </h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>5.88</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+</body>
+</html>

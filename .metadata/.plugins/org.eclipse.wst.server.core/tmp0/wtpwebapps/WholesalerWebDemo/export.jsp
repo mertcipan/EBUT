@@ -23,7 +23,7 @@
 	<tr>
 		<th>Export Matching Products</th>
 		<th colspan="2">View</th>
-		<th colspan="2">Download</th>
+		<th colspan="1">Download</th>
 	</tr>
 	<tr>
 		<td>
@@ -50,7 +50,6 @@
 		<td><button onclick="submitScript('BMECAT');">BMECAT</button></td>
 		<td><button onclick="submitScript('XHTML');">XHTML</button></td>
 		<td><button onclick="submitScript('BMECAT','yes');">BMECAT</button></td>
-		<td><button onclick="submitScript('XHTML','yes');">XHTML</button></td>
 	</tr>	
 </table>
 <p></p>
@@ -58,7 +57,7 @@
 <table class="dataTable">
 	<tr>
 		<th colspan="2">View</th>
-		<th colspan="2">Download</th>
+		<th colspan="1">Download</th>
 	</tr>
 	<tr>
 		<td>
@@ -74,11 +73,6 @@
 		<td>
 			<form method ="post" action="controllerservlet?action=export&view=BMECAT&download=yes">
 				<button type="submit">BMECAT</button>
-			</form>
-		</td>
-		<td>
-			<form method ="post" action="controllerservlet?action=export&view=XHTML&download=yes">
-				<button type="submit">XHTML</button>
 			</form>
 		</td>
 	</tr>

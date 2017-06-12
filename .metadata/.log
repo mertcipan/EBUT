@@ -1067,3 +1067,9 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.jface.text 2 0 2017-06-12 15:50:56.130
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.ui.navigator 4 0 2017-06-12 19:00:53.169
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/TestXHTML".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2017-06-12 19:00:53.308
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/TestXHTML".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
