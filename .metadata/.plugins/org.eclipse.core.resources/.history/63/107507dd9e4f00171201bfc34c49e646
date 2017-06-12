@@ -68,10 +68,10 @@ public class Import implements IValidation {
 					System.out.println("LOAD SUPPLIER != NULL");
 					insertProductsIntoDB(document, errorList, supplier);
 				} else {
-					System.out.println("ERROR: Supplier not found");
+					System.out.println("Supplier not found");
 				}
 			} else {
-				System.out.println("ERROR: Document not valid!");
+				System.out.println("Document not valid!");
 			}
 		}
 	}
@@ -228,8 +228,8 @@ public class Import implements IValidation {
 	
 
 	/**
-	 * gets the Supplier from database or null if supplier not found and informs the user that the supplier is not in the used database
-	 * @param document The DOM
+	 * gets the Supplier from database or null if supplier not found
+	 * @param document the DOM
 	 * @param errorList user notification
 	 * @return corresponding supplier from database, if not found -> null
 	 */
@@ -238,13 +238,13 @@ public class Import implements IValidation {
 		NodeList suppliers = document.getElementsByTagName("SUPPLIER_NAME");
 
 		if(suppliers.getLength() == 0){
-			System.out.println("ERROR: No Supplier in uploaded Document");
+			System.out.println("No Supplier in uploaded Document");
 		} else {
 			//search for found supplier in db
 			List<BOSupplier> supplierList = SupplierBOA.getInstance().findByCompanyName(suppliers.item(0).getChildNodes().item(0).getNodeValue());
 			
 			if(supplierList.isEmpty()){
-				errorList.add("ERROR: Supplier \"" + suppliers.item(0).getChildNodes().item(0).getNodeValue() +"\" not found in the Database!");
+				errorList.add("Supplier" + suppliers.item(0).getChildNodes().item(0).getNodeValue() +"not found in DB!");
 			} else {
 				return supplierList.get(0);
 			}			

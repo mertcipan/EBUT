@@ -228,8 +228,8 @@ public class Import implements IValidation {
 	
 
 	/**
-	 * gets the Supplier from database or null if supplier not found and informs the user that the supplier is not in the used database
-	 * @param document The DOM
+	 * gets the Supplier from database or null if supplier not found
+	 * @param document the DOM
 	 * @param errorList user notification
 	 * @return corresponding supplier from database, if not found -> null
 	 */
@@ -244,7 +244,7 @@ public class Import implements IValidation {
 			List<BOSupplier> supplierList = SupplierBOA.getInstance().findByCompanyName(suppliers.item(0).getChildNodes().item(0).getNodeValue());
 			
 			if(supplierList.isEmpty()){
-				errorList.add("ERROR: Supplier \"" + suppliers.item(0).getChildNodes().item(0).getNodeValue() +"\" not found in the Database!");
+				errorList.add("ERROR: Supplier" + suppliers.item(0).getChildNodes().item(0).getNodeValue() +" not found in the Database!");
 			} else {
 				return supplierList.get(0);
 			}			

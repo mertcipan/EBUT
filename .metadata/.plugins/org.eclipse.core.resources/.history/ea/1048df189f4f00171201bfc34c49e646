@@ -244,7 +244,7 @@ public class Import implements IValidation {
 			List<BOSupplier> supplierList = SupplierBOA.getInstance().findByCompanyName(suppliers.item(0).getChildNodes().item(0).getNodeValue());
 			
 			if(supplierList.isEmpty()){
-				errorList.add("ERROR: Supplier \"" + suppliers.item(0).getChildNodes().item(0).getNodeValue() +"\" not found in the Database!");
+				errorList.add("ERROR: Supplier" + suppliers.item(0).getChildNodes().item(0).getNodeValue() +" not found in the Database!");
 			} else {
 				return supplierList.get(0);
 			}			
