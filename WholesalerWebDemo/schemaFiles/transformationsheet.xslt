@@ -5,6 +5,8 @@
 			<html xmlns="http://www.w3.org/1999/xhtml">
 				 <head>
 				   <title><xsl:value-of select="BMECAT/HEADER/CATALOG/CATALOG_NAME"/></title>
+				   <link rel="stylesheet" type="text/css" href="layout.css" />
+				   <link rel="stylesheet" type="text/css" href="default.css" />
 				 </head>
 				 <body>
 					 <xsl:apply-templates select="BMECAT"/>
@@ -13,13 +15,21 @@
 	</xsl:template>
 		
 	<xsl:template match="HEADER">
-		<table border="1">
-		<xsl:for-each select="CATALOG/*">
-				<tr>
-					<td><xsl:value-of select ="local-name()"/></td>
+		<table class="dataTable" border="2">
+		<thead>
+			<tr>
+				<xsl:for-each select="CATALOG/*">
+					<th><b><xsl:value-of select ="local-name()"/></b></th>
+				</xsl:for-each>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<xsl:for-each select="CATALOG/*">
 					<td><xsl:value-of select="node()"/></td>
-				</tr>
-		</xsl:for-each>
+				</xsl:for-each>
+			</tr>
+		</tbody>
 		</table>
 		<h1><xsl:value-of select ="local-name(//SUPPLIER_NAME)"/><xsl:text>: </xsl:text><xsl:value-of select="//SUPPLIER_NAME"/></h1>
 	</xsl:template>
@@ -30,43 +40,67 @@
 	</xsl:template>	
 	
 	<xsl:template match="//ARTICLE_DETAILS">
-		<h3><xsl:value-of select="local-name()"/><xsl:text>: </xsl:text></h3>
+		<h3><xsl:text>ARTICLE INFORMATION</xsl:text></h3>
 		<table border="1">
-		<xsl:for-each select="*">
-			<tr>
-				<td><xsl:value-of select ="local-name()"/></td>
-				<td><xsl:value-of select ="node()"/></td>
-			</tr>
-		</xsl:for-each>
-	</table>
+			<thead>
+				<tr>
+					<xsl:for-each select="*">
+						<th><b><xsl:value-of select ="local-name()"/></b></th>
+					</xsl:for-each>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<xsl:for-each select="*">
+						<td><xsl:value-of select ="node()"/></td>
+					</xsl:for-each>
+				</tr>
+			</tbody>
+		</table>
 	</xsl:template>
 
-	<xsl:template match="//ARTICLE_ORDER_DETAILS">
-		<h3><xsl:value-of select="local-name()"/><xsl:text>: </xsl:text></h3>
+	<xsl:template name="order" match="//ARTICLE_ORDER_DETAILS">
+		<h3><xsl:text>ORDER DETAILS</xsl:text></h3>
 		<table border="1">
-		<xsl:for-each select="*">
+		<thead>
 			<tr>
-				<td><xsl:value-of select ="local-name()"/></td>
-				<td><xsl:value-of select ="node()"/></td>
+				<xsl:for-each select="*">
+					<th><b><xsl:value-of select ="local-name()"/></b></th>
+				</xsl:for-each>
 			</tr>
-		</xsl:for-each>
+		</thead>
+		<tbody>
+			<tr>
+				<xsl:for-each select="*">
+					<td><xsl:value-of select ="node()"/></td>
+				</xsl:for-each>
+			</tr>
+		</tbody>
 	</table>
 	</xsl:template>
 	
 	<xsl:template match="//ARTICLE_PRICE_DETAILS">
-		<h3><xsl:value-of select="local-name()"/><xsl:text>: </xsl:text></h3>
+		<h3><xsl:text>ALL AVAILABLE PRICE DETAILS</xsl:text></h3>
 		<xsl:apply-templates/>
 	</xsl:template>
 	
 	<xsl:template match="//ARTICLE_PRICE">
-		<h3><xsl:value-of select="local-name()"/><xsl:text>: </xsl:text></h3>
+		<h3><xsl:text>PRICE</xsl:text></h3>
 		<table border="1">
-		<xsl:for-each select="*">
+		<thead>
 			<tr>
-				<td><xsl:value-of select ="local-name()"/></td>
-				<td><xsl:value-of select ="node()"/></td>
+				<xsl:for-each select="*">
+					<th><b><xsl:value-of select ="local-name()"/></b></th>
+				</xsl:for-each>
 			</tr>
-		</xsl:for-each>
+		</thead>
+		<tbody>
+			<tr>
+			<xsl:for-each select="*">
+					<td><xsl:value-of select ="node()"/></td>
+				</xsl:for-each>
+			</tr>
+		</tbody>
 	</table>
 	</xsl:template>	
 	

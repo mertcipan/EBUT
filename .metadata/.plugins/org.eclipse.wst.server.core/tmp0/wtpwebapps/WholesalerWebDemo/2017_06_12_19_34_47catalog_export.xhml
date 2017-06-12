@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PRODUKTKATALOG eBusiness Framework Mert und Egzon</title>
+</head>
+<body>
+    <table border="1">
+<tr>
+<td>LANGUAGE</td>
+<td>deu</td>
+</tr>
+<tr>
+<td>CATALOG_ID</td>
+<td>HTWG-EBUS-17</td>
+</tr>
+<tr>
+<td>CATALOG_VERSION</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>CATALOG_NAME</td>
+<td>PRODUKTKATALOG eBusiness Framework Mert und Egzon</td>
+</tr>
+</table>
+<h1>SUPPLIER_NAME: KN MEDIA STORE</h1>
+    
+        
+            <h2>Artikel_ID: mer-penbook-1</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG-Pen Book</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>quadratisches Notizbuch inkl. HTWG-Kugelschreiber, 18 x 18 cm</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: htwg-bluse-201</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG Damen Bluse</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>weiße Bluse, am Kragen HTWG-Schmuckelement, gestickt in blauer Farbe</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: htwg-hemd-101</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG Herren Hemd</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>weißes Herren Hemd, am Kragen HTWG-Schmuckelement, gestickt in blauer Farbe</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: mer-pin-1</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG-Ansteckpin</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Metallpin mit Logo, Hintergrund weiß</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: mer-blockA4-1</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG-Block</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Din A4, blaues Cover, innen Rasterpunkte</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: mer-konmappe-1</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG-Konferenzmappe</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>weiße Mappe mit Cyan-logo, innen Cyan-Wellenmuster, breiter Rücken</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: mer-stift-2</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG-Kugelschreiber</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>hochwertiger Kugelschreiber, Farbe: schwarz / silbern, logo in Cyan-blau</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: mer-stiftebox-1</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG-Stiftebox</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Staedtler Stiftebox mit HTWG-Aufkleber, enthält 4 Stifte, aufstellbar</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: mer-uhr-1</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG-Uhr</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>International Watch Group Switzerland Damen- und Herrenmodell, Ziffernblatt mit HTWG-Logo, inkl. silberner Präsentbox</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: mer-zeugmappe-1</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>HTWG-Zeugnismappe</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>weiße Mappe mit Cyan-logo, innen Cyan-Wellenmuster, für wenige Blätter</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: 3198044</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>MAUI WOWIE Badeshorts Frauen</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Maui Wowie Badeshorts mit Schnürung, 1 Gesäßtasche, Schlüsseltäschchen; Länge ca. 50cm/Gr. 38; aus 100% Polyester.</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: 3097266</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>MAUI WOWIE Badeshorts Männer</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Maui Wowie Badeshorts mit Elastikbund und Kordelzug, 2 seitliche Einschubtaschen, 1 Gesäßtasche; Innenslip und Schlüsseltäschchen; Länge ca. 38cm/Gr. L; aus 100% Polyester.</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: 837472D</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>MAUI WOWIE Sandale Frauen Flower</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Maui Wowie FLOWER. Zehensandale aus PU und EVA; Fußbett mit floralem Musterprint; Außensohle mit leichtem Rillenprofil.</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: 1054746</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>Mikasa Beachvolley</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Beachvolleyball von Mikasa, orange/anthrazit</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: 368972C</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>Protest Bikini</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Protest Bustierbikini mit Neckholderträgern, herausnehmbaren Pads, Bändel im Nacken und Rücken zu binden; Höschen gefüttert, mit wendbarem Gürtel; aus 80% Polyamid, 20% Elastan</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: 2783103</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>QUIKSILVER Handtuch</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Strandtuch - Limited Edition Ob Schwimmbad, Sandstrand oder am Baggersee ... mit diesem weichen Strandtuch im attraktiven QUIKSILVER-Logo-Design liegst du überall richtig. Material: 100% Baumwolle Farbe: Blau Größe: L/180 x B/85 cm</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: 5656349</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>UVEX Brille Snowsun</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>Uvex SNOWSUN. Perfekt sitzende Sportbrille mit gummierten Bügelenden für optimalen Halt, Innenseite komplett gummiert, schließt dadurch rundherum ab; 100% UV-Schutz, bruch- und kratzfest beschichtet, optisch absolut korrekt.</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: A1111</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>Tablet PC</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>10 inch tablet pc</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: A2222</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>Dell Vostro 1310</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>13 inch Dell notebook with intel Core 2 Duo 2.1 GHz</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: A3333</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>Apple iPhone 4</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>iPhone 4 with 32 GB.</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: A4444</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>Playstation 3 Slim Edition</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>PS3 Slim Edition with 320 GB incl 1 wireless controller</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+        
+            <h2>Artikel_ID: A8888</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<tr>
+<td>DESCRIPTION_SHORT</td>
+<td>Playstation 4 Slim Edition</td>
+</tr>
+<tr>
+<td>DESCRIPTION_LONG</td>
+<td>PS4 Slim Edition with 500 GB incl 1 wireless controller</td>
+</tr>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<tr>
+<th>ORDER_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>CONTENT_UNIT</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+<tr>
+<th>NO_CU_PER_OU</th>
+</tr>
+<tr>
+<td>05</td>
+</tr>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1181.25</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>EUR</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.1900</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>DE</td>
+</tr>
+</table>
+                <h3>PRICE</h3>
+<table border="1">
+<tr>
+<td>PRICE_AMOUNT</td>
+<td>1250.00</td>
+</tr>
+<tr>
+<td>PRICE_CURRENCY</td>
+<td>USD</td>
+</tr>
+<tr>
+<td>TAX</td>
+<td>0.0760</td>
+</tr>
+<tr>
+<td>TERRITORY</td>
+<td>US</td>
+</tr>
+</table>
+            
+        
+    
+</body>
+</html>
