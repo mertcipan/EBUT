@@ -30,19 +30,19 @@ import de.htwg_konstanz.ebus.framework.wholesaler.api.bo.BOProduct;
 import de.htwg_konstanz.ebus.framework.wholesaler.api.bo.BOSalesPrice;
 import de.htwg_konstanz.ebus.framework.wholesaler.api.boa.ProductBOA;
 /**
- * Exports whole catalog or articles whose short description matches a given String entered by the user
+ * Either exporting all Products or Products matching typed in specific text
  * 
- * export as XHTML(view) or BMECAT(view or download)
+ * Export as XHTML or BMECAT(view or download)
  * 
- * export class implements the interface IValidator
- * @author Paul und Mitu
+ * Export class implements the interface IValidation
+ * @author Egzon and Mert
  *
  */
 public class Export implements IValidation {
 	
 	/**
-	 * exports the whole Catalog
-	 * @return Product catalog
+	 * This function exports the whole Product Catalog
+	 * @return Product Catalog
 	 */
 	public static Document exportWholeCatalog(ArrayList<String> errorList){
 		Document document= null;
@@ -56,10 +56,10 @@ public class Export implements IValidation {
 	}
 	
 	/**
-	 * exports the Catalog with articles that match a search string
+	 * This function exports the Catalog with all articles matching to an entered search string
 	 * @param errorList the ErrorList to inform user
-	 * @param search The Search string
-	 * @return BMECAT conform document
+	 * @param search The entered Search string
+	 * @return A BMECat-conform document
 	 */
 	public static Document exportSearch(ArrayList<String> errorList, String search){
 		Document document= null;
@@ -73,8 +73,8 @@ public class Export implements IValidation {
 	}
 	
 	/**
-	 * Creates the BMECat catalog
-	 * @return document The whole Catalog with <b>all</b> entries
+	 * This function creates the BMECat catalog
+	 * @return document The whole Catalog with <b>all</b> its entries
 	 * @throws ParserConfigurationException 
 	 */
 	public static Document createCatalog() throws ParserConfigurationException{
@@ -88,9 +88,9 @@ public class Export implements IValidation {
 	}
 
 	/**
-	 * 
-	 * @param errorList The errorList could be used to inform the User
-	 * @param search The search Query to find selected Products
+	 * This function creates the Product Catalog of all Products matching the entered search string
+	 * @param errorList The errorList informs the User in case of no products matching the entered search string
+	 * @param search The search String which was entered to find the matching Products
 	 * @return catalog The whole Catalog with <b>Products that match the search String</b> entries
 	 * @throws ParserConfigurationException
 	 */
@@ -106,7 +106,7 @@ public class Export implements IValidation {
 			}
 		}
 		if(!foundOne){
-			errorList.add("No article with given description: " +search+ " found");
+			errorList.add("ERROR: No matching article with entered search-string (\"" +search+ "\") found");
 		}
 		return document;
 	}
@@ -120,10 +120,12 @@ public class Export implements IValidation {
 	 * @return the Path to the File
 	 */
 	public static String convertToXHTML(String xml, ServletContext context, Integer userId, ArrayList<String> errorList){
-		String path ="catalog_export"+userId+".XHTML";
+		DateFormat dateFormat = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+		Date date = new Date();
+		String path =dateFormat.format(date)+"catalog_export.xhml";
 		File file = new File(context.getRealPath(path));
 		try {
-			//load Transformation
+		//load Transformation
 		TransformerFactory factory = TransformerFactory.newInstance();
 		Transformer transformer;
 		transformer = factory.newTransformer(new StreamSource("/Users/mertcipan/EBUT/WholesalerWebDemo/schemaFiles/transformationsheet.xslt"));

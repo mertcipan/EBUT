@@ -84,7 +84,7 @@ public class Import implements IValidation {
 	 * @return
 	 */
 	public BOProduct insertProductsIntoDB(Document document, List<String> errorList, BOSupplier supplier){
-		System.out.println("insert Products Into DB.......");
+		System.out.println("....inserting new Products into the Database");
 		//Get all Articles from the uploaded catalog
 		NodeList articleList = document.getElementsByTagName("ARTICLE");
 		BOProduct product = null;
@@ -97,36 +97,37 @@ public class Import implements IValidation {
 			NodeList supplier_aid = article.getElementsByTagName("SUPPLIER_AID");
 			product.setOrderNumberSupplier(supplier_aid.item(0).getChildNodes().item(0).getNodeValue());
 			product.setOrderNumberCustomer(supplier_aid.item(0).getChildNodes().item(0).getNodeValue());
-			System.out.println("supplier_aid " + product.getOrderNumberSupplier());		
+			System.out.println("*********Product[" + (i+1) + "]*********");
+			System.out.println("["+ (i+1) + "] supplier_aid " + product.getOrderNumberSupplier());		
 			product.setSupplier(supplier);
 			
 			//get "DESCRIPTION_SHORT" and set the value for product
 			NodeList description_short = article.getElementsByTagName("DESCRIPTION_SHORT"); 
 			product.setShortDescription(description_short.item(0).getChildNodes().item(0).getNodeValue());
-			System.out.println("description_short " + product.getShortDescription());
+			System.out.println("["+ (i+1) + "] description_short " + product.getShortDescription());
 			
 			//get "DESCRIPTION_LONG" and set the value for product
 			NodeList description_long = article.getElementsByTagName("DESCRIPTION_LONG");
 			if(tagExists(description_long)){
 				product.setLongDescription(description_long.item(0).getChildNodes().item(0).getNodeValue());
-				System.out.println("description_long" + product.getLongDescription());
+				System.out.println("["+ (i+1) + "] description_long" + product.getLongDescription());
+				System.out.println("****************************************");
 			}
 			
-			//find the same product in db
+			//if same Product was found, the old Product will be dropped and new one will be inserted
 			List<BOProduct> sameProductsInDB = ProductBOA.getInstance().findByShortdescription(product.getShortDescription());
-			
 			if(!sameProductsInDB.isEmpty()){
 				//Product already in DB
 				deleteProduct(sameProductsInDB.get(0));
 				ProductBOA.getInstance().saveOrUpdate(product);
-				insertProductPricesIntoDB(document, errorList, product);
-				errorList.add("INFO: Product " + product.getShortDescription() + " updated");
+				insertPricesIntoDB(document, errorList, product);
+				errorList.add("UPDATE: Product \"" + product.getShortDescription() + "\" was already in database and gets UPDATED");
 
 			} else {
 				//Product not in DB
 				ProductBOA.getInstance().saveOrUpdate(product);
-				insertProductPricesIntoDB(document, errorList, product);
-				errorList.add("INFO: Product " + product.getShortDescription() + " added");
+				insertPricesIntoDB(document, errorList, product);
+				errorList.add("NEW: Product \"" + product.getShortDescription() + "\" ADDED");
 			}
 		}	 
 		//commits and closes transaction
@@ -147,12 +148,12 @@ public class Import implements IValidation {
 		return false;
 	}
 
-	private void insertProductPricesIntoDB(Document document, List<String> errorList, BOProduct product) {
+	private void insertPricesIntoDB(Document document, List<String> errorList, BOProduct product) {
 		BOSalesPrice salesPrice = new BOSalesPrice();
-		BOPurchasePrice purchasePrice = new BOPurchasePrice();
+		BOPurchasePrice purchasingPrice = new BOPurchasePrice();
 	
-		//SalesPrice = 1.5 x purchasePrice...we have to earn something
-		BigDecimal profit = new BigDecimal(1.5);
+		//SalesPrice = 2,5 x purchasingPrice
+		BigDecimal profit = new BigDecimal(2.5);
 		
 		NodeList articlePriceList = document.getElementsByTagName("ARTICLE_PRICE");
 		
@@ -161,25 +162,25 @@ public class Import implements IValidation {
 			Element articlePrice =  (Element) articlePriceList.item(i);
 			
 			//Set Attribute "price_type"
-			purchasePrice.setPricetype(articlePrice.getAttribute("price_type"));
+			purchasingPrice.setPricetype(articlePrice.getAttribute("price_type"));
 			salesPrice.setPricetype(articlePrice.getAttribute("price_type"));
 		
 			//Set "PRICE_AMOUNT"
 			NodeList article_price_amount = articlePrice.getElementsByTagName("PRICE_AMOUNT");
-			purchasePrice.setAmount(BigDecimal.valueOf(Double.valueOf(article_price_amount.item(0).getChildNodes().item(0).getNodeValue())));
+			purchasingPrice.setAmount(BigDecimal.valueOf(Double.valueOf(article_price_amount.item(0).getChildNodes().item(0).getNodeValue())));
 			salesPrice.setAmount(BigDecimal.valueOf(Double.valueOf(article_price_amount.item(0).getChildNodes().item(0).getNodeValue())).multiply(profit));
 			
 			//Set "TERRITORY" before currency
 			NodeList territory = articlePrice.getElementsByTagName("TERRITORY");
 			if(tagExists(territory)){
-				purchasePrice.setCountry(new BOCountry(new Country(territory.item(0).getChildNodes().item(0).getNodeValue())));
+				purchasingPrice.setCountry(new BOCountry(new Country(territory.item(0).getChildNodes().item(0).getNodeValue())));
 				salesPrice.setCountry(new BOCountry(new Country(territory.item(0).getChildNodes().item(0).getNodeValue())));
 			}
 			
 			//Set "PRICE_CURRENCY" 
 			NodeList price_currency = articlePrice.getElementsByTagName("PRICE_CURRENCY");
 			if(tagExists(price_currency)){
-				purchasePrice.getCountry().setCurrency(new BOCurrency(new Currency(price_currency.item(0).getChildNodes().item(0).getNodeValue())));
+				purchasingPrice.getCountry().setCurrency(new BOCurrency(new Currency(price_currency.item(0).getChildNodes().item(0).getNodeValue())));
 				salesPrice.getCountry().setCurrency(new BOCurrency(new Currency(price_currency.item(0).getChildNodes().item(0).getNodeValue())));
 			}
 			
@@ -187,17 +188,17 @@ public class Import implements IValidation {
 			NodeList tax = articlePrice.getElementsByTagName("TAX");
 			if(tagExists(tax)){
 				BigDecimal number = BigDecimal.valueOf(Double.valueOf(tax.item(0).getChildNodes().item(0).getNodeValue()));
-				purchasePrice.setTaxrate(number);
+				purchasingPrice.setTaxrate(number);
 				salesPrice.setTaxrate(number);
 			}
 			
-			purchasePrice.setLowerboundScaledprice(1);
+			purchasingPrice.setLowerboundScaledprice(1);
 			salesPrice.setLowerboundScaledprice(1);
-			purchasePrice.setProduct(product);
+			purchasingPrice.setProduct(product);
 			salesPrice.setProduct(product);
 
 			//Save Prices in DB
-			PriceBOA.getInstance().saveOrUpdatePurchasePrice(purchasePrice);
+			PriceBOA.getInstance().saveOrUpdatePurchasePrice(purchasingPrice);
 			PriceBOA.getInstance().saveOrUpdateSalesPrice(salesPrice);
 			//commit
 			_BaseBOA.getInstance().commit();
@@ -215,10 +216,10 @@ public class Import implements IValidation {
 	
 
 	/**
-	 * gets the Supplier from db or null if supplier not found
+	 * gets the Supplier from database or null if supplier not found
 	 * @param document the DOM
 	 * @param errorList user notification
-	 * @return corresponding supplier from db, if not found -> null
+	 * @return corresponding supplier from database, if not found -> null
 	 */
 	private BOSupplier getSupplier(Document document, ArrayList<String> errorList) {
 		//get suppliers in document

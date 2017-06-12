@@ -35,7 +35,6 @@
 		<table border="1" class="dataTable">
 			<thead>
 			<tr>
-			<th><b>ArtikelNr.</b></th>
 			<th><b>Short Description</b></th>
 			<th><b>Long Description</b></th>
 			<th><b>Price</b></th>
@@ -83,6 +82,15 @@
 		
 		<!--<xsl:apply-templates select="//ARTICLE_ORDER_DETAILS"/>  -->
 	</xsl:template>	
+	
+	<xsl:template match="//TERRITORY">
+		<xsl:for-each select="*">
+			<tr>
+				<td><xsl:value-of select ="local-name()"/></td>
+				<td><xsl:value-of select ="node"/></td>
+			</tr>
+		</xsl:for-each>
+	</xsl:template>
 	
 	<xsl:template match="//ARTICLE_REFERENCE/ART_ID_TO">
 		<h4>ARTIKEL HAT EINE REFERENZ AUF: <xsl:value-of select="node()"/><xsl:text>: </xsl:text></h4>

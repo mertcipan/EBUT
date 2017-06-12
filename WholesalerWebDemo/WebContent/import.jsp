@@ -16,7 +16,7 @@
 <%@ include file="navigation.jspfragment" %>
 
 
-<h1>Import Product catalog</h1>
+<h1>Import Product Catalog</h1>
 
 	<!-- javascript for checking, if a file is selected -->
 	
@@ -33,21 +33,18 @@
 	<!-- Formular for importing of products -->
 	
 	<form id="upload" name="upload" action="controllerservlet?action=import" enctype="multipart/form-data" method="POST">
-		<table>
+		<table class="dataTable">
 			<tr>
-				<td>Selected File:</td>
+				<th colspan="2">Option to upload a File</th>
+			</tr>
+			<tr>
 				<td><input type="file" name="File" id="File"/></td>
+				<td><input type="button" value="Upload" onclick="submitOrError()"/></td>
 			</tr>
-			<tr>
-				<td>Importing Format:</td>
-				<td><select name="role" size="1">
-						<option value="1" selected>XML</option>
-						<option value="2">XHTML</option>
-					</select></td>
-			</tr>
+
 		</table>
+	</form>
 		
-		<p><input type="button" value="Upload" onclick="submitOrError()"/></p>
 
 </body>
 </html>

@@ -114,7 +114,7 @@ public class ExportAction implements IAction {
 			response.setContentType("text/xml");
 			response.setHeader("Content-Disposition",
 			"attachment;filename=bmecat.xml");
-			//BMEcat as Outputstream and not File
+			//BMEcat as Outputstream and not as File
 			File file = new File(context.getRealPath(path));
 			FileInputStream fin = new FileInputStream(file);
 			ServletOutputStream out = response.getOutputStream();

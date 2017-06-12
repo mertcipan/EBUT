@@ -30,15 +30,21 @@
 			<form id="searchForm" method="post" action="controllerservlet?action=export">
 				<input type="hidden" name="view" id="view"/>
 				<input type="hidden" name="download" id="download"/>
-				<input type="text" name="search" placeholder="TEXT"/>
+				<input type="text" name="search" id="search" placeholder="SEARCHING TEXT"/>
 				<input type="reset" value="Reset">
 			</form> 
 		</td>
 		<script>
 			function submitScript(view, download) {
-				document.getElementById("view").value = view;
-				document.getElementById("download").value = download;
-				document.getElementById("searchForm").submit();
+				if(document.getElementById("search").value !== ""){
+						document.getElementById("view").value = view;
+						document.getElementById("download").value = download;
+						document.getElementById("searchForm").submit();				
+				} 
+				else {
+					alert("Please type in some text!");
+				}	
+				
 			}
 		</script>
 		<td><button onclick="submitScript('BMECAT');">BMECAT</button></td>
