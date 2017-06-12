@@ -265,7 +265,7 @@ public class Import implements IValidation {
 			validator.validate(new DOMSource(document)); //if the validation fails an exception is thrown
 			isValid = true;
 		} catch (SAXException e) {
-			errorList.add("ERROR: The Uploaded XML File is not valid!");
+			errorList.add("The Uploaded XML File is not valid!");
 			e.printStackTrace();
 		} catch (IOException e) {
 			errorList.add("Error while reading DOM");
@@ -294,7 +294,7 @@ public class Import implements IValidation {
 			errorList.add("Error during parser configuration!");
 			e.printStackTrace();
 		} catch (SAXException e) {
-			errorList.add("ERROR! XML is not wellformed!");
+			errorList.add("Error! Parsed xml isn't wellformed!");
 			e.printStackTrace();
 		} catch (IOException e) {
 			errorList.add("Error during parsing!");
@@ -321,7 +321,7 @@ public class Import implements IValidation {
 					String fileExtension = FilenameUtils.getExtension(item.getName());
 					System.out.println("File: " + filename);
 					if(!filename.endsWith(".xml")){
-						errorList.add("ERROR: Uploaded File (tpye = '." + fileExtension + "') does not fulfill requirements. Only XML Files are accepted!");
+						errorList.add("Uploaded File is from Type '." + fileExtension + "'. Only XML Files are accepted");
 						inputStream=null;
 					}
 				}

@@ -265,7 +265,7 @@ public class Import implements IValidation {
 			validator.validate(new DOMSource(document)); //if the validation fails an exception is thrown
 			isValid = true;
 		} catch (SAXException e) {
-			errorList.add("ERROR: The Uploaded XML File is not valid!");
+			errorList.add("The Uploaded XML File is not valid!");
 			e.printStackTrace();
 		} catch (IOException e) {
 			errorList.add("Error while reading DOM");
