@@ -24,17 +24,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>5.88</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -50,17 +44,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>25.21</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -76,17 +64,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>25.21</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -102,17 +84,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>0.84</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -128,17 +104,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>0.84</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -154,17 +124,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>0.42</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -180,17 +144,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>0.42</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -206,17 +164,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>1.68</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -232,17 +184,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>21.01</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -258,17 +204,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>0.42</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -284,17 +224,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>34.95</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -310,17 +244,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>34.95</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -336,17 +264,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>14.95</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -362,17 +284,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>19.95</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -388,17 +304,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>42.95</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -414,17 +324,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>19.95</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -440,17 +344,11 @@
                 <NO_CU_PER_OU>05</NO_CU_PER_OU>
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>24.95</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
-                </ARTICLE_PRICE>
-                <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
-                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
-                    <TAX>0.0760</TAX>
-                    <TERRITORY>US</TERRITORY>
                 </ARTICLE_PRICE>
             </ARTICLE_PRICE_DETAILS>
         </ARTICLE>
@@ -467,13 +365,19 @@
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>472.50</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
                 </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>999.98</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>FR</TERRITORY>
+                </ARTICLE_PRICE>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>500.00</PRICE_AMOUNT>
                     <PRICE_CURRENCY>USD</PRICE_CURRENCY>
                     <TAX>0.0760</TAX>
                     <TERRITORY>US</TERRITORY>
@@ -493,13 +397,19 @@
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>472.50</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
                 </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>999.98</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>FR</TERRITORY>
+                </ARTICLE_PRICE>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>500.00</PRICE_AMOUNT>
                     <PRICE_CURRENCY>USD</PRICE_CURRENCY>
                     <TAX>0.0760</TAX>
                     <TERRITORY>US</TERRITORY>
@@ -519,13 +429,19 @@
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>472.50</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
                 </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>999.98</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>FR</TERRITORY>
+                </ARTICLE_PRICE>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>500.00</PRICE_AMOUNT>
                     <PRICE_CURRENCY>USD</PRICE_CURRENCY>
                     <TAX>0.0760</TAX>
                     <TERRITORY>US</TERRITORY>
@@ -545,13 +461,19 @@
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>472.50</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
                 </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>999.98</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>FR</TERRITORY>
+                </ARTICLE_PRICE>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>500.00</PRICE_AMOUNT>
                     <PRICE_CURRENCY>USD</PRICE_CURRENCY>
                     <TAX>0.0760</TAX>
                     <TERRITORY>US</TERRITORY>
@@ -571,13 +493,115 @@
             </ARTICLE_ORDER_DETAILS>
             <ARTICLE_PRICE_DETAILS>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1181.25</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>472.50</PRICE_AMOUNT>
                     <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
                     <TAX>0.1900</TAX>
                     <TERRITORY>DE</TERRITORY>
                 </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>999.98</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>FR</TERRITORY>
+                </ARTICLE_PRICE>
                 <ARTICLE_PRICE price_type="gros_list">
-                    <PRICE_AMOUNT>1250.00</PRICE_AMOUNT>
+                    <PRICE_AMOUNT>500.00</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
+                    <TAX>0.0760</TAX>
+                    <TERRITORY>US</TERRITORY>
+                </ARTICLE_PRICE>
+            </ARTICLE_PRICE_DETAILS>
+        </ARTICLE>
+        <ARTICLE>
+            <SUPPLIER_AID>A8899</SUPPLIER_AID>
+            <ARTICLE_DETAILS>
+                <DESCRIPTION_SHORT>Playstation 7 Slim Edition</DESCRIPTION_SHORT>
+                <DESCRIPTION_LONG>PS7 Slim Edition with 1 TB incl 1 wireless controller</DESCRIPTION_LONG>
+            </ARTICLE_DETAILS>
+            <ARTICLE_ORDER_DETAILS>
+                <ORDER_UNIT>05</ORDER_UNIT>
+                <CONTENT_UNIT>05</CONTENT_UNIT>
+                <NO_CU_PER_OU>05</NO_CU_PER_OU>
+            </ARTICLE_ORDER_DETAILS>
+            <ARTICLE_PRICE_DETAILS>
+                <ARTICLE_PRICE price_type="gros_list">
+                    <PRICE_AMOUNT>472.50</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>DE</TERRITORY>
+                </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>999.98</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>FR</TERRITORY>
+                </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="gros_list">
+                    <PRICE_AMOUNT>500.00</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
+                    <TAX>0.0760</TAX>
+                    <TERRITORY>US</TERRITORY>
+                </ARTICLE_PRICE>
+            </ARTICLE_PRICE_DETAILS>
+        </ARTICLE>
+        <ARTICLE>
+            <SUPPLIER_AID>A8877</SUPPLIER_AID>
+            <ARTICLE_DETAILS>
+                <DESCRIPTION_SHORT>Playstation 10 Slim Edition</DESCRIPTION_SHORT>
+                <DESCRIPTION_LONG>PS8 Slim Edition with 10 TB incl 1 wireless controller</DESCRIPTION_LONG>
+            </ARTICLE_DETAILS>
+            <ARTICLE_ORDER_DETAILS>
+                <ORDER_UNIT>05</ORDER_UNIT>
+                <CONTENT_UNIT>05</CONTENT_UNIT>
+                <NO_CU_PER_OU>05</NO_CU_PER_OU>
+            </ARTICLE_ORDER_DETAILS>
+            <ARTICLE_PRICE_DETAILS>
+                <ARTICLE_PRICE price_type="gros_list">
+                    <PRICE_AMOUNT>472.50</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>DE</TERRITORY>
+                </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>999.98</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>FR</TERRITORY>
+                </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="gros_list">
+                    <PRICE_AMOUNT>500.00</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>USD</PRICE_CURRENCY>
+                    <TAX>0.0760</TAX>
+                    <TERRITORY>US</TERRITORY>
+                </ARTICLE_PRICE>
+            </ARTICLE_PRICE_DETAILS>
+        </ARTICLE>
+        <ARTICLE>
+            <SUPPLIER_AID>A9999</SUPPLIER_AID>
+            <ARTICLE_DETAILS>
+                <DESCRIPTION_SHORT>Playstation 8 Slim Edition</DESCRIPTION_SHORT>
+                <DESCRIPTION_LONG>PS8 Slim Edition with 10 TB incl 1 wireless controller</DESCRIPTION_LONG>
+            </ARTICLE_DETAILS>
+            <ARTICLE_ORDER_DETAILS>
+                <ORDER_UNIT>05</ORDER_UNIT>
+                <CONTENT_UNIT>05</CONTENT_UNIT>
+                <NO_CU_PER_OU>05</NO_CU_PER_OU>
+            </ARTICLE_ORDER_DETAILS>
+            <ARTICLE_PRICE_DETAILS>
+                <ARTICLE_PRICE price_type="gros_list">
+                    <PRICE_AMOUNT>472.50</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>DE</TERRITORY>
+                </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="net_list">
+                    <PRICE_AMOUNT>999.98</PRICE_AMOUNT>
+                    <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+                    <TAX>0.1900</TAX>
+                    <TERRITORY>FR</TERRITORY>
+                </ARTICLE_PRICE>
+                <ARTICLE_PRICE price_type="gros_list">
+                    <PRICE_AMOUNT>500.00</PRICE_AMOUNT>
                     <PRICE_CURRENCY>USD</PRICE_CURRENCY>
                     <TAX>0.0760</TAX>
                     <TERRITORY>US</TERRITORY>

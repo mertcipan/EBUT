@@ -1,11 +1,30 @@
 package de.htwg_konstanz.ebus.wholesaler.rs.demo;
 
+import java.io.File;
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
+
+import org.w3c.dom.Document;
+
+
+import de.htwg_konstanz.ebus.framework.wholesaler.api.boa._BaseBOA;
+import de.htwg_konstanz.ebus.wholesaler.main.Export;
  
 @Path("/hello")
 public class WholesalerRestDemo {
- 
+//	@Context private HttpServletRequest request;
+//	@Context ServletContext context;
+	
 	@GET
 	@Path("/{param}")
 	public Response getMsg(@PathParam("param") String msg) {
@@ -28,12 +47,56 @@ public class WholesalerRestDemo {
 	@Consumes("text/plain")
 	@Path("/squareroot")
 	public Response getSquareRoot(final String num) {
- 
+		
 		Integer x = Integer.valueOf(num);
-
+		
 		String output = "Squareroot of " + x + " is " + Math.sqrt(x);
- 
+		
 		return Response.status(200).entity(output).build(); 
 	}
- 
+	
+	//TASK 4
+	
+	//Export whole CATALOG in bmecat-Format
+	@GET
+	@Produces(MediaType.TEXT_XML)
+	@Path("/xml")
+	public Document getXMLDoc() {
+		Document doc;
+		doc = Export.exportWholeCatalog(null);
+		return doc;
+	}
+	
+	//Export CATALOG matching text in bmecat-Format
+	@GET
+	@Produces(MediaType.TEXT_XML)
+	@Path("/xml/{param}")
+	public Document getSelXMLDoc(@PathParam("param") String text) {
+		Document doc;
+		doc = Export.exportSearch(null, text);
+		return doc;
+	}
+	
+	//Export whole CATALOG in xhtml-Format
+	@GET
+	@Produces(MediaType.APPLICATION_XHTML_XML)
+	@Path("/xhtml")
+	public String getXHTMLDoc(@Context HttpServletRequest request, @Context ServletContext context) {
+		context = request.getSession().getServletContext();
+		Document doc = Export.exportWholeCatalog(null);
+		String path = Export.writeeDOMIntoFile(doc, context, null);
+		path = Export.createXHTML(path, context, null);
+		return path;
+	}
+	
+	//Export CATALOG matching text in xhtml-Format
+	@GET
+	@Produces(MediaType.APPLICATION_XHTML_XML)
+	@Path("/xhtml/{param}")
+	public String getSelXHTMLDoc(@PathParam("param") String text, @Context HttpServletRequest request, @Context ServletContext context) {
+		context = request.getSession().getServletContext();
+		String path = Export.writeeDOMIntoFile(Export.exportSearch(null, text), context, null);
+		path = Export.createXHTML(path, context, null);
+		return path;
+	}
 }

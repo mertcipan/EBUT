@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PRODUKTKATALOG eBusiness Framework Mert und Egzon</title>
+<link rel="stylesheet" type="text/css" href="layout.css"/>
+<link rel="stylesheet" type="text/css" href="default.css"/>
+</head>
+<body>
+    <table class="dataTable" border="2">
+<thead>
+<tr>
+<th>
+<b>LANGUAGE</b>
+</th>
+<th>
+<b>CATALOG_ID</b>
+</th>
+<th>
+<b>CATALOG_VERSION</b>
+</th>
+<th>
+<b>CATALOG_NAME</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>deu</td>
+<td>HTWG-EBUS-17</td>
+<td>1.0</td>
+<td>PRODUKTKATALOG eBusiness Framework Mert und Egzon</td>
+</tr>
+</tbody>
+</table>
+<h1>SUPPLIER_NAME: KN MEDIA STORE</h1>
+    
+        
+            <h2>Artikel_ID: mer-penbook-1</h2>
+            <h3>ARTICLE INFORMATION</h3>
+<table border="1">
+<thead>
+<tr>
+<th>
+<b>DESCRIPTION_SHORT</b>
+</th>
+<th>
+<b>DESCRIPTION_LONG</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HTWG-Pen Book</td>
+<td>quadratisches Notizbuch inkl. HTWG-Kugelschreiber, 18 x 18 cm</td>
+</tr>
+</tbody>
+</table>
+            <h3>ORDER DETAILS</h3>
+<table border="1">
+<thead>
+<tr>
+<th>
+<b>ORDER_UNIT</b>
+</th>
+<th>
+<b>CONTENT_UNIT</b>
+</th>
+<th>
+<b>NO_CU_PER_OU</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>05</td>
+<td>05</td>
+<td>05</td>
+</tr>
+</tbody>
+</table>
+            <h3>ALL AVAILABLE PRICE DETAILS</h3>
+                <h3>PRICE</h3>
+<table border="1">
+<thead>
+<tr>
+<th>
+<b>PRICE_AMOUNT</b>
+</th>
+<th>
+<b>PRICE_CURRENCY</b>
+</th>
+<th>
+<b>TAX</b>
+</th>
+<th>
+<b>TERRITORY</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5.88</td>
+<td>EUR</td>
+<td>0.1900</td>
+<td>DE</td>
+</tr>
+</tbody>
+</table>
+            
+        
+    
+</body>
+</html>

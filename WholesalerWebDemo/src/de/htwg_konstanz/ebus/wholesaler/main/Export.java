@@ -140,6 +140,27 @@ public class Export implements IValidation {
 		return path;
 	}
 	
+	public static String createXHTML(String xml, ServletContext context, ArrayList<String> errorList){
+		DateFormat dateFormat = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+		Date date = new Date();
+		String path =dateFormat.format(date)+"catalog_export.xhml";
+		File file = new File(context.getRealPath(path));
+		try {
+		//load Transformation
+		TransformerFactory factory = TransformerFactory.newInstance();
+		Transformer transformer;
+		transformer = factory.newTransformer(new StreamSource("/Users/mertcipan/EBUT/WholesalerWebDemo/schemaFiles/transformationsheet.xslt"));
+		transformer.transform(new StreamSource(context.getRealPath(xml)), new StreamResult(file));
+		} catch (TransformerConfigurationException e) {
+			errorList.add("Error while transforming File");
+			e.printStackTrace();
+		} catch (TransformerException e) {
+			errorList.add("Error while transforming File");
+			e.printStackTrace();
+		}
+		return path;
+	}
+	
 	/**
 	 * Writes Document into File
 	 * @param document The Document that should be transformed 
@@ -149,6 +170,36 @@ public class Export implements IValidation {
 	 * @return the Path to the File
 	 */
 	public static String writeDOMIntoFile(Document document, ServletContext context, Integer userId, ArrayList<String> errorList){
+		String path="bmecat.xml";
+		File file=null;
+		
+		
+		try {
+			//send DOM to File
+			Transformer tr = TransformerFactory.newInstance().newTransformer();
+			tr.setOutputProperty(OutputKeys.INDENT, "yes");
+            tr.setOutputProperty(OutputKeys.METHOD, "xml");
+            tr.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+            tr.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
+			
+            //create file
+            DOMSource source = new DOMSource(document);
+			file = new File(context.getRealPath(path));
+			StreamResult result = new StreamResult(file);
+			tr.transform(source, result);
+			
+		} catch (TransformerConfigurationException e) {
+			errorList.add("Configuration Error while transforming");
+			e.printStackTrace();
+		} catch (TransformerException e) {
+			errorList.add("Error while transforming");
+			e.printStackTrace();
+		}
+		
+		return path;
+	}
+	
+	public static String writeeDOMIntoFile(Document document, ServletContext context, ArrayList<String> errorList){
 		String path="bmecat.xml";
 		File file=null;
 		

@@ -7,4 +7,8 @@
 <fullyQualifiedTypeName name="java.text.DateFormat"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.Client"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+<fullyQualifiedTypeName name="de.htwg_konstanz.ebus.wholesaler.main.Export"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Context"/>
 </qualifiedTypeNameHistroy>

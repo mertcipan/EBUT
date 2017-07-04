@@ -1,0 +1,81 @@
+package de.htwg_konstanz.ebus.wholesaler.rs.demo;
+
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.Response;
+
+import org.w3c.dom.Document;
+
+import de.htwg_konstanz.ebus.wholesaler.demo.LoginBean;
+import de.htwg_konstanz.ebus.wholesaler.demo.util.Constants;
+import de.htwg_konstanz.ebus.wholesaler.main.Export;
+ 
+@Path("/hello")
+public class WholesalerRestDemo {
+	@Context private HttpServletRequest request;
+	@Context ServletContext context;
+	
+	@GET
+	@Path("/{param}")
+	public Response getMsg(@PathParam("param") String msg) {
+ 
+		String output = "Jersey says: " + msg;
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+	
+	@GET
+	@Path("/square/{param}")
+	public Response getSquare(@PathParam("param") int num) {
+ 
+		String output = "Square of " + num + " is " + (num*num);
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+	
+	@POST
+	@Consumes("text/plain")
+	@Path("/squareroot")
+	public Response getSquareRoot(final String num) {
+		
+		Integer x = Integer.valueOf(num);
+		
+		String output = "Squareroot of " + x + " is " + Math.sqrt(x);
+		
+		return Response.status(200).entity(output).build(); 
+	}
+	
+	@GET
+	@Path("/xml")
+	public Document getXMLDoc() {
+		Document doc;
+		doc = Export.exportWholeCatalog(null);
+		return doc;
+	}
+	
+	@GET
+	@Path("/xml/{param}")
+	public Document getSelXMLDoc(@PathParam("param") String text) {
+		Document doc;
+		doc = Export.exportSearch(null, text);
+		return doc;
+	}
+	
+//	@GET
+//	@Path("/xhtml")
+//	public String getXHTMLDoc() {
+//		String path = Export.writeeDOMIntoFile(Export.exportWholeCatalog(null), context, null);
+//		path = Export.createXHTML(path, context, null);
+//		return path;
+//	}
+	
+//	@GET
+//	@Path("/xhtml/{param}")
+//	public String getSelXHTMLDoc(@PathParam("param") String text) {
+//		Document doc;
+//		doc = Export.exportSearch(null, text);
+//		return doc;
+//	}
+}

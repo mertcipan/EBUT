@@ -1,0 +1,50 @@
+package de.htwg_konstanz.ebus.wholesaler.rs.demo;
+
+import java.util.ArrayList;
+import javax.ws.rs.*;
+import javax.ws.rs.core.Response;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+
+import de.htwg_konstanz.ebus.wholesaler.main.Export;
+
+@Path("/export")
+public class ExportRest {
+	@GET
+	@Path("/xhtml/{param}")
+	public Response getXHTML(@PathParam("param") String msg) {
+ 
+		String output = "XHTML selective: " + msg;
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+	@GET
+	@Path("/xhtml")
+	public Response getAllXHTML() {
+ 
+		String output = "XHTML ALL: ";
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+	@GET
+	@Path("/xml/{param}")
+	public Response exportSearch(ArrayList<String> errorList, @PathParam("param") String search){
+		Document document= null;
+		try {
+			 document = Export.createSelectedCatalog(errorList, search);
+		} catch (ParserConfigurationException e) {
+			errorList.add("Error while creating DOM");
+			e.printStackTrace();
+		}
+		return Response.status(200).entity(document).build();
+	}
+	@GET
+	@Path("/xml")
+	public Response getAllXML() {
+ 
+		String output = "XML ALL: ";
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+}

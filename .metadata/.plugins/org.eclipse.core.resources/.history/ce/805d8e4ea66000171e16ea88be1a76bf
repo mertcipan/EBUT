@@ -1,0 +1,42 @@
+package de.htwg_konstanz.ebus.wholesaler.rs.demo;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.core.Response;
+
+@Path("/export")
+public class ExportRest {
+	@GET
+	@Path("/xhtml/{param}")
+	public Response getXHTML(@PathParam("param") String msg) {
+ 
+		String output = "Jersey says: " + msg;
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+	@GET
+	@Path("/xhtml")
+	public Response getAllXHTML(@PathParam("param") String msg) {
+ 
+		String output = "Jersey says: " + msg;
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+	@GET
+	@Path("/xml/{param}")
+	public Response getXML(@PathParam("param") String msg) {
+ 
+		String output = "Jersey says: " + msg;
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+	@GET
+	@Path("/xml")
+	public Response getAllXML(@PathParam("param") String msg) {
+ 
+		String output = "Jersey says: " + msg;
+ 
+		return Response.status(200).entity(output).build(); 
+	}
+}
